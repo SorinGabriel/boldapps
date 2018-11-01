@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@keyframes colorChange {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .9;
+  }
+}
+
+/* line 22, F:/BoldApps/sass/style.scss */
+html, body {
+  font-size: 18px;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  position: relative;
+}
+
+/* line 27, F:/BoldApps/sass/style.scss */
+html .navbar, body .navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* line 30, F:/BoldApps/sass/style.scss */
+html .navbar .nav-link, body .navbar .nav-link {
+  font-size: 24px;
+}
+
+/* line 33, F:/BoldApps/sass/style.scss */
+html .navbar .nav-item, body .navbar .nav-item {
+  margin: 1em;
+}
+
+/* line 38, F:/BoldApps/sass/style.scss */
+html .bg-myColor, body .bg-myColor {
+  background-color: black;
+}
+
+/* line 42, F:/BoldApps/sass/style.scss */
+html section, body section {
+  height: 100vh;
+  position: relative;
+}
+
+/* line 47, F:/BoldApps/sass/style.scss */
+html #intro, body #intro {
+  background: black;
+}
+
+/* line 49, F:/BoldApps/sass/style.scss */
+html #intro .message, body #intro .message {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  width: 40%;
+  height: 20%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 58, F:/BoldApps/sass/style.scss */
+html #intro .message h1, body #intro .message h1 {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+/* line 62, F:/BoldApps/sass/style.scss */
+html #intro .message h2, body #intro .message h2 {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+/* line 67, F:/BoldApps/sass/style.scss */
+html #intro .filter, body #intro .filter {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fe5757;
+  animation: colorChange 30s ease-in-out infinite;
+  animation-fill-mode: both;
+  mix-blend-mode: overlay;
+}
+
+/* line 78, F:/BoldApps/sass/style.scss */
+html #intro .landscape, body #intro .landscape {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 87, F:/BoldApps/sass/style.scss */
+html #about, body #about {
+  background-color: #FFF;
+}
+
+/* line 91, F:/BoldApps/sass/style.scss */
+html #technologies, body #technologies {
+  background-color: #E71D36;
+}
+
+/* line 95, F:/BoldApps/sass/style.scss */
+html #portofolio, body #portofolio {
+  background-color: #FF9F1C;
+}
+
+/* line 99, F:/BoldApps/sass/style.scss */
+html #contact, body #contact {
+  background-color: #011627;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 104, F:/BoldApps/sass/style.scss */
+  html #logo, body #logo {
+    width: 9em;
+    margin-left: 2em;
+  }
+  /* line 108, F:/BoldApps/sass/style.scss */
+  html .nav-item, body .nav-item {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */
